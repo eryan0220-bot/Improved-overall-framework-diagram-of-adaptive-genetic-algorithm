@@ -1,4 +1,5 @@
 # Improved-overall-framework-diagram-of-adaptive-genetic-algorithm
+```mermaid
 flowchart TD
     A[算法开始] --> B[算法参数初始化<br/>种群规模N、进化代数上限Gmax、Pc/Pm上下限、多样性阈值、局部搜索迭代次数、罚函数系数上下限、编码规则、约束条件与目标函数]
     B --> C[初始种群生成<br/>采用混沌映射/正交设计/佳点集生成高多样性初始种群P(0)，设置进化代数g=0]
